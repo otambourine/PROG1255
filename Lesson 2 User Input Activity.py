@@ -1,8 +1,11 @@
-# Get the name, age, and today's date from user
-value = input ("Please type 'hello', 1, and today's date")
-print (value)
-phrase = (value)
-print (phrase [0:5] + phrase [5:6] + phrase [6:])
+# My answer
+# Get phrase from user
+phrase = input ("Please enter a phrase: ")
+
+slice1 = eval(input("Please enter first number: "))
+slice2 = eval(input("Please enter second number: "))
+
+print (phrase[slice1:slice2+1])
 
 # Solution
 # Introduction to Python Programming
